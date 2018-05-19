@@ -40,9 +40,10 @@ body{
     font-family: 'Pacifico', cursive;
 }
 .w3layouts-logo h1 a span{
-    color: #ffffff !important;
-    font-weight: 100;
+    color:  #5383d3; !important;
     font-family: 'Roboto', sans-serif;
+    font: normal 50px 'Cookie', cursive;
+    margin: 0;
 }
 /*-- //header-left --*/
 /*-- top-nav --*/
@@ -322,13 +323,13 @@ a.pa_italic:focus {
 	text-align:left;
 }
 .w3ls-services-left{
-	background: url(../images/3.jpg) no-repeat 0px 0px;
+	background: url(../images/p4.jpeg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 557px;
 }
 .w3ls-services-right{
     padding: 4em;
-    /*padding-bottom: 0px;*/
+   /* padding-bottom: 0px;*/
     background: #5383d3;
 }
 .w3ls-services-icons{
@@ -884,11 +885,11 @@ ul.ab li a:hover{
 }
 /*-- different --*/
 .different{
-    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background: url(../images/indexpic.jpeg) no-repeat 0px 0px;
     background-size: cover;
 }
 .different-heading h3{
-    color: #FFFFFF;
+    color: #dcdcdc;
 }
 .w3agile-different-info p{
     text-align: center;
