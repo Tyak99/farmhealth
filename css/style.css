@@ -1,9 +1,4 @@
-/*--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -66,7 +61,7 @@ ul.nav.navbar-nav {
     float: none;
     text-align: center;
     background: none;
-    padding-left: 10em;
+    padding-left: 7em;
 }
 .navbar-default{
     background: none;
@@ -100,7 +95,7 @@ ul.nav.navbar-nav {
 	border-left: none;
 }
 .top-nav ul li a:hover{
-    color: #fff !important;
+    color: #a2bd36 !important;
 }
 .top-nav ul li a.active{
     color: #a2bd36 !important;
@@ -216,6 +211,15 @@ ul.dropdown-menu li{
 	border-top: 0;
 	border-bottom: 2px solid #fff !important;
 }
+
+
+/* jumbotron*/
+.jumbotron-fluid {
+    padding: 4em;
+    background: #a2bd36;
+
+}
+
 /*-- w3-banner --*/
 /*-- welcome --*/
 .welcome,.testimonial,.wthree-subscribe,footer,.different,.team,.gallery,.codes,.typography,.single,.contact-top{
@@ -233,6 +237,8 @@ ul.dropdown-menu li{
 }
 .w3_welcome_grids,.w3-agileits-subscribe-form,.agileinfo-team-grids{
 	margin:4em 0 0 0;
+    margin-left:4em;
+
 }
 .welcome_panel{
 	margin:0 !important;
@@ -325,12 +331,13 @@ a.pa_italic:focus {
 .w3ls-services-left{
 	background: url(../images/p4.jpeg) no-repeat 0px 0px;
     background-size: cover;
-    min-height: 561px;
+    min-height: 620px;
 }
 .w3ls-services-right{
     padding: 4em;
-   /* padding-bottom: 0px;*/
     background: #a2bd36;
+    /*padding-bottom: 18px;*/
+    
 }
 .w3ls-services-icons{
     margin: 4em 0 0 0;
@@ -927,8 +934,14 @@ ul.ab li a:hover{
 .team{
     background: #e5eff1;
 }
+.wthree-team-grid {
+    width:30%;
+}
 .wthree-team-grid img{
 	width:100%;
+}
+.team1 {
+    
 }
 .wthree-team-grid-info{
 	padding:1em;
@@ -1416,7 +1429,7 @@ h2.typoh2{
 	color: #a2bd36;
 }
 .agileits-single-img p{
-    color: #999999;
+    color: #444444;
     font-size: .9em;
     line-height: 1.8em;
     margin: 0;
@@ -1804,9 +1817,11 @@ h2.typoh2{
 	.top-nav ul li a {
 		border-bottom: none;
 	}
+
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 		background-color: #a2bd36;
 	}
+
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #fff;
 	}
